@@ -5,6 +5,7 @@
      <div>
        this  is  app 
        from by god
+       <h2>doi ng is great</h2>
      </div>
    )
  }
