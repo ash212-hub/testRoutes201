@@ -1,11 +1,18 @@
+import Navbar from "./navbar"
+import Home  from "./Home"
+import Contact from "./Contact"
+import Product from "./Product"
+import Footer from "./Footer"
  
  
  function App() {
    return (
      <div>
-       this  is  app 
-       from by god
-       <h2>doi ng is great</h2>
+       <Navbar/>
+       <Home/> 
+        <Contact />
+        <Product/>
+       <Footer />
      </div>
    )
  }
