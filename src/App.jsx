@@ -1,4 +1,4 @@
-import Navbar from "./navbar"
+import Navbar from "./Header21"
 import Home  from "./Home"
 import Contact from "./Contact"
 import Product from "./Product"
