@@ -1,4 +1,4 @@
- 
+ import { NavLink } from "react-router-dom"
 
 function Navbar() {
   return (
@@ -6,9 +6,9 @@ function Navbar() {
       this is a nav bar 
       <div className="container">
         <ul >
-            <li>hOme</li>
-            <li> contact </li>
-            <li> product</li>
+            <li> <NavLink to="/">Home</NavLink></li>
+            <li> <NavLink to="/contact">Contact</NavLink> </li>
+            <li><NavLink to="/product">Product</NavLink></li>
              
         </ul>
       </div>

@@ -3,16 +3,21 @@ import Home  from "./Home"
 import Contact from "./Contact"
 import Product from "./Product"
 import Footer from "./Footer"
- 
+ import { Routes,Route } from "react-router-dom"
  
  function App() {
    return (
      <div>
        <Navbar/>
-       <Home/> 
-        <Contact />
-        <Product/>
-       <Footer />
+     
+     <Routes>
+       
+       <Route path="/" element={<Home />} />
+       <Route path="/contact" element={<Contact />} />
+       <Route path="/product" element={<Product />} />
+     </Routes>
+
+     <Footer />
      </div>
    )
  }
